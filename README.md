@@ -5,7 +5,5 @@ These are storyboards I created using the Storybrew editor developed by Damnae. 
 # What are osu! Storyboards?
 
 osu! storyboards are a means of telling a story via background animations to a song to accompany the beatmap. This can be anything from lyrics, spectrums, panning/tilting/zooming, particle effects, or much more complex designs. 
-<div align=”center”>
 ![1](https://user-images.githubusercontent.com/48495874/86648426-1669ec80-bf9e-11ea-88d9-7041dde5b47f.gif)
 ![2](https://user-images.githubusercontent.com/48495874/86649754-449bfc00-bf9f-11ea-96b0-eac2f5456357.gif)  
-</div>
