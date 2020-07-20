@@ -2,6 +2,12 @@
 
 These are storyboards I created using the Storybrew editor developed by Damnae. (https://github.com/Damnae/storybrew/releases/tag/1.67) These are all coded in C#. Please see my osu! profile and submitted maps to visualize, or put these into Storybrew for reference. All of my scripts used are provided within each mapset's folder.
 
+In order of creation from oldest to newest:
+1. MARENOL - https://osu.ppy.sh/beatmapsets/1070820#osu/2241460
+2. Rose Bud - https://osu.ppy.sh/beatmapsets/1198525#osu/2496130
+3. City Lights https://osu.ppy.sh/beatmapsets/663220#osu/1639734
+4. Cross Over - https://osu.ppy.sh/beatmapsets/1209029#osu/2517295
+
 # What are osu! Storyboards?
 
 osu! storyboards are a means of telling a story via background animations to a song to accompany the beatmap level. This can be anything from lyrics, spectrums, panning/tilting/zooming, particle effects, or much more complex designs. See examples:
