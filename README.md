@@ -7,6 +7,7 @@ In order of creation from oldest to newest:
 2. Rose Bud - https://osu.ppy.sh/beatmapsets/1198525#osu/2496130
 3. City Lights https://osu.ppy.sh/beatmapsets/663220#osu/1639734
 4. Cross Over - https://osu.ppy.sh/beatmapsets/1209029#osu/2517295
+5. Hachigatsu - https://osu.ppy.sh/beatmapsets/1082526#osu/2264343
 
 # What are osu! Storyboards?
 
