@@ -2,6 +2,8 @@
 
 These are storyboards I created using the Storybrew editor developed by Damnae. (https://github.com/Damnae/storybrew/releases/tag/1.67) These are all coded in C#. Please see my osu! profile and submitted maps to visualize, or put these into Storybrew for reference. All of my scripts used are provided within each mapset's folder.
 
+NOTE: Most of my scripts are NOT optimized, and some are hardcoded on a map-by-map basis. If you have any suggestions feel free to inform me, as I could use some more guidance on optimization!
+
 In order of creation from oldest to newest:
 1. MARENOL - https://osu.ppy.sh/beatmapsets/1070820#osu/2241460
 2. Rose Bud - https://osu.ppy.sh/beatmapsets/1198525#osu/2496130
