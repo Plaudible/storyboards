@@ -11,6 +11,7 @@ In order of creation from oldest to newest:
 4. Cross Over - https://osu.ppy.sh/beatmapsets/1209029#osu/2517295
 5. Hachigatsu - https://osu.ppy.sh/beatmapsets/1082526#osu/2264343
 6. Bocca Della - https://osu.ppy.sh/beatmapsets/1241096#osu/2580222
+7. Boss Bitch - https://osu.ppy.sh/beatmapsets/1107500#osu/2314614
 
 # What are osu! Storyboards?
 
