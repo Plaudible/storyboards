@@ -12,6 +12,7 @@ In order of creation from oldest to newest:
 5. Hachigatsu - https://osu.ppy.sh/beatmapsets/1082526#osu/2264343
 6. Bocca Della - https://osu.ppy.sh/beatmapsets/1241096#osu/2580222
 7. Boss Bitch - https://osu.ppy.sh/beatmapsets/1107500#osu/2314614
+8. In Aeternum - https://osu.ppy.sh/beatmapsets/1261793#osu/2622787
 
 # What are osu! Storyboards?
 
