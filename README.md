@@ -2,7 +2,7 @@
 
 These are storyboards I created using the Storybrew editor developed by Damnae. (https://github.com/Damnae/storybrew/releases/tag/1.67) These are all coded in C#. Please see my osu! profile and submitted maps to visualize, or put these into Storybrew for reference. All of my scripts used are provided within each mapset's folder.
 
-NOTE: Most of my scripts are NOT optimized, and some are hardcoded on a map-by-map basis. If you have any suggestions feel free to inform me, as I could use some more guidance on optimization!
+NOTE: Some scripts are hardcoded on a map-by-map basis. If you have any suggestions or need help implementing these feel free to reach out.
 
 In order of creation from oldest to newest:
 1. MARENOL - https://osu.ppy.sh/beatmapsets/1070820#osu/2241460
@@ -13,6 +13,7 @@ In order of creation from oldest to newest:
 6. Bocca Della - https://osu.ppy.sh/beatmapsets/1241096#osu/2580222
 7. Boss Bitch - https://osu.ppy.sh/beatmapsets/1107500#osu/2314614
 8. In Aeternum - https://osu.ppy.sh/beatmapsets/1261793#osu/2622787
+9. Alucard - https://osu.ppy.sh/beatmapsets/1333252#osu/2762311
 
 # What are osu! Storyboards?
 
