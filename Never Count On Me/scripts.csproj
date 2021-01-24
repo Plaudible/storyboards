@@ -53,14 +53,18 @@
   -->
   <ItemGroup>
     <Compile Include="BG.cs" />
+    <Compile Include="BridgeLyrics.cs" />
+    <Compile Include="DefaultLyrics.cs" />
     <Compile Include="HitObjectBarlight.cs" />
     <Compile Include="HitObjectHighlight.cs" />
     <Compile Include="IntroBar.cs" />
     <Compile Include="LyricCarousel.cs" />
     <Compile Include="Mask.cs" />
+    <Compile Include="Particles.cs" />
     <Compile Include="Ring.cs" />
+    <Compile Include="Sidebars.cs" />
+    <Compile Include="Spectrum.cs" />
     <Compile Include="Subtitle.cs" />
-    <Compile Include="Text OG.cs" />
     <Compile Include="Title.cs" />
   </ItemGroup>
   <ItemGroup />

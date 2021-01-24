@@ -92,6 +92,14 @@ namespace StorybrewScripts
 
             pix.ScaleVec(OsbEasing.Out, 21219, 21385, 75, 75, 120, 120);
             pix.ScaleVec(OsbEasing.OutExpo, 21385,21719, 120, 120, 0, 0);
+
+            var sq = layer.CreateSprite("sb/s.png", OsbOrigin.Centre);
+
+            sq.Fade(21385, 21719, 0.75, 0);
+            sq.Scale(OsbEasing.Out, 21385, 21719, 1, 3);
+
+            sq.Fade(21719, 22052, 0, 0.75);
+            sq.Scale(OsbEasing.In, 21719, 22052, 3.5, 0);
         }
     }
 }

@@ -30,6 +30,13 @@ namespace StorybrewScripts
             bgblur.Scale(719, (360.0 / 768)*1);
 
             bgblur.Fade(21219, 21719, 0.6, 0);
+
+            bgblur.Fade(22052, 22719, 0, 0.8);
+            bgblur.Fade(22719, 42052, 0.8, 0.8);
+
+            var vig = layer.CreateSprite("sb/vignette.png", OsbOrigin.Centre);
+            vig.Scale(22052, 0.7);
+            vig.Fade(22052, 43385, 1, 1);
         }
     }
 }
