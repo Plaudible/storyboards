@@ -53,7 +53,9 @@
   -->
   <ItemGroup>
     <Compile Include="BG.cs" />
+    <Compile Include="BridgeHitObjectHighlight.cs" />
     <Compile Include="BridgeLyrics.cs" />
+    <Compile Include="CrossHitlight.cs" />
     <Compile Include="DefaultLyrics.cs" />
     <Compile Include="HitObjectBarlight.cs" />
     <Compile Include="HitObjectHighlight.cs" />
@@ -61,11 +63,13 @@
     <Compile Include="LyricCarousel.cs" />
     <Compile Include="Mask.cs" />
     <Compile Include="Particles.cs" />
-    <Compile Include="Ring.cs" />
+    <Compile Include="RebootWarning.cs" />
+    <Compile Include="ScrollingText.cs" />
     <Compile Include="Sidebars.cs" />
     <Compile Include="Spectrum.cs" />
     <Compile Include="Subtitle.cs" />
     <Compile Include="Title.cs" />
+    <Compile Include="WarningLyrics.cs" />
   </ItemGroup>
   <ItemGroup />
 </Project>

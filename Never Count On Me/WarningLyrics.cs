@@ -9,7 +9,7 @@ using System.IO;
 
 namespace StorybrewScripts
 {
-    public class BridgeLyrics : StoryboardObjectGenerator
+    public class WarningLyrics : StoryboardObjectGenerator
     {
         [Configurable]
         public string SubtitlesPath = "lyrics.srt";
@@ -25,6 +25,9 @@ namespace StorybrewScripts
 
         [Configurable]
         public float FontScale = 0.5f;
+
+        [Configurable]
+        public float DownScale = 0.1f;
 
         [Configurable]
         public Color4 FontColor = Color4.White;
@@ -130,7 +133,7 @@ namespace StorybrewScripts
 
         public void generateLyrics(FontGenerator font, SubtitleSet subtitles, string layerName, bool additive)
         {
-            var layer = GetLayer("Foreground");
+            var layer = GetLayer(layerName);
             if (PerCharacter) generatePerCharacter(font, subtitles, layer, additive);
             else generatePerLine(font, subtitles, layer, additive);
         }
@@ -144,10 +147,14 @@ namespace StorybrewScripts
                     + texture.OffsetFor(Origin) * FontScale;
 
                 var sprite = layer.CreateSprite(texture.Path, Origin, position);
-                sprite.Scale(line.StartTime, FontScale);
-                sprite.Fade(line.StartTime - 200, line.StartTime, 0, 1);
-                sprite.Fade(line.EndTime - 200, line.EndTime, 1, 0);
+                sprite.Scale(line.StartTime, line.EndTime, FontScale - DownScale, FontScale);
                 if (additive) sprite.Additive(line.StartTime - 200, line.EndTime);
+
+                for(double i = line.StartTime; i<= line.EndTime; i+= 1334){
+                sprite.Fade(i, i+667,0, 1);
+                sprite.Fade(i+667, i+1334, 1, 0);
+                
+            }
             }
         }
 
@@ -166,57 +173,20 @@ namespace StorybrewScripts
                         lineWidth += texture.BaseWidth * FontScale;
                         lineHeight = Math.Max(lineHeight, texture.BaseHeight * FontScale);
                     }
-                    float letterX;
 
-                    int length = subtitleLine.Text.Length; 
-                    if (length > 30){
-                        letterX = 10;
-                    }else if(length > 20){
-                        letterX = 0;
-                    }else{
-                        letterX = -10;
-                    }
-                    
-                    
-                    var initX = letterX;
+                    var letterX = 320 - lineWidth * 0.5f;
                     foreach (var letter in line)
                     {
                         var texture = font.GetTexture(letter.ToString());
                         if (!texture.IsEmpty)
                         {
-
                             var position = new Vector2(letterX, letterY)
                                 + texture.OffsetFor(Origin) * FontScale;
 
-                            var angle = 15.5155 * Math.PI / 180;
-
-                            var Radius = position.X - initX;
-                            var x = Radius * Math.Cos(angle) + initX;
-                            var y = Radius * Math.Sin(angle) + letterY;
-                            Vector2 newPos = new Vector2((float)x, (float)y);
-                             
-                            Vector2 extraMovement = new Vector2(15f, 5f); 
-
-                            Vector2 startPoint = new Vector2(150f, 40f);
-
-                            var layer2 = GetLayer("Background");
-
-                            var redSquare = layer2.CreateSprite("sb/babysquare.png", Origin, newPos);
-                            redSquare.Color(subtitleLine.StartTime, 1, 0 ,0);
-                            redSquare.Fade(subtitleLine.StartTime - 200, subtitleLine.StartTime, 0, 0.15);
-                            redSquare.Fade(subtitleLine.EndTime - 200, subtitleLine.EndTime,0.15, 0);
-                            redSquare.Scale(subtitleLine.StartTime, Random(0,2.5));
-                            redSquare.Rotate(subtitleLine.StartTime - 200, subtitleLine.EndTime, Random(-2, 2), Random(-2,2));
-
-                            var sprite = layer.CreateSprite(texture.Path, Origin, startPoint);
-                            sprite.Move(OsbEasing.OutExpo, subtitleLine.StartTime - 200, subtitleLine.StartTime + 200, newPos - startPoint, newPos);
-                            sprite.Move(subtitleLine.StartTime + 200, subtitleLine.EndTime, newPos, newPos + extraMovement);
+                            var sprite = layer.CreateSprite(texture.Path, Origin, position);
                             sprite.Scale(subtitleLine.StartTime, FontScale);
                             sprite.Fade(subtitleLine.StartTime - 200, subtitleLine.StartTime, 0, 1);
                             sprite.Fade(subtitleLine.EndTime - 200, subtitleLine.EndTime, 1, 0);
-                            sprite.Rotate(subtitleLine.StartTime, angle);
-                            sprite.Scale(subtitleLine.StartTime - 200, subtitleLine.StartTime, 0.05, 0.25);
-
                             if (additive) sprite.Additive(subtitleLine.StartTime - 200, subtitleLine.EndTime);
                         }
                         letterX += texture.BaseWidth * FontScale;

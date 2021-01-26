@@ -1,0 +1,8 @@
+﻿1
+00:00:43,380 --> 00:00:54,050
+System Malfunction Detected
+
+2
+00:00:54,050 --> 00:01:03,380
+REBOOT FAILED!
+
