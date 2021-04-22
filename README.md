@@ -15,6 +15,7 @@ In order of creation from oldest to newest:
 8. In Aeternum - https://osu.ppy.sh/beatmapsets/1261793#osu/2622787
 9. Alucard - https://osu.ppy.sh/beatmapsets/1333252#osu/2762311
 10. Free - https://osu.ppy.sh/beatmapsets/1261605#osu/2842819
+11. Clear - https://osu.ppy.sh/beatmapsets/1437681#osu/2957947
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/48495874/86648426-1669ec80-bf9e-11ea-88d9-7041dde5b47f.gif" alt="animated" />
