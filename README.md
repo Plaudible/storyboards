@@ -18,5 +18,5 @@ In order of creation from oldest to newest:
 11. Clear - https://osu.ppy.sh/beatmapsets/1437681#osu/2957947
 
 <p align="center">
-  [![Preview](https://img.youtube.com/vi/i0a8Q51IZuc/0.jpg)](https://www.youtube.com/watch?v=i0a8Q51IZuc)
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=i0a8Q51IZuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </p>
