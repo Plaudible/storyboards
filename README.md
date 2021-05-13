@@ -18,6 +18,5 @@ In order of creation from oldest to newest:
 11. Clear - https://osu.ppy.sh/beatmapsets/1437681#osu/2957947
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/48495874/86648426-1669ec80-bf9e-11ea-88d9-7041dde5b47f.gif" alt="animated" />
-  <img src="https://user-images.githubusercontent.com/48495874/86649754-449bfc00-bf9f-11ea-96b0-eac2f5456357.gif" alt="animated" />
+  [![Preview](https://img.youtube.com/vi/i0a8Q51IZuc/0.jpg)](https://www.youtube.com/watch?v=i0a8Q51IZuc)
 </p>
