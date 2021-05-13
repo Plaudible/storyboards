@@ -20,4 +20,4 @@ In order of creation from oldest to newest:
 <p align="center">
 
 </p>
-  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=i0a8Q51IZuc)
+[![Pusher - Clear (Shawn Wasabi Remix) SB](http://img.youtube.com/vi/i0a8Q51IZuc/0.jpg)](http://www.youtube.com/watch?v=i0a8Q51IZuc "Pusher - Clear (Shawn Wasabi Remix)")
