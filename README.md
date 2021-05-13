@@ -18,6 +18,6 @@ In order of creation from oldest to newest:
 11. Clear - https://osu.ppy.sh/beatmapsets/1437681#osu/2957947
 
 <p align="center">
-
+  [![Pusher - Clear (Shawn Wasabi Remix) SB](http://img.youtube.com/vi/i0a8Q51IZuc/0.jpg)](http://www.youtube.com/watch?v=i0a8Q51IZuc "Pusher - Clear (Shawn Wasabi Remix)")
 </p>
-[![Pusher - Clear (Shawn Wasabi Remix) SB](http://img.youtube.com/vi/i0a8Q51IZuc/0.jpg)](http://www.youtube.com/watch?v=i0a8Q51IZuc "Pusher - Clear (Shawn Wasabi Remix)")
+
